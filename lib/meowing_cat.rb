@@ -6,10 +6,14 @@ class Cat
   end
   
   def name
-    name
+    @name
+  end
+  
+  def meow=(meow)
+    @meow = "Meow!"
   end
   
   def meow
-    "Meow!"
+    @meow
   end
 end
