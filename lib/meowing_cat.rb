@@ -7,9 +7,7 @@ class Cat
     @name
   end
   
-  def meow=(meow)
-    @meow = "Meow!"
-  end
+  attr_accessor :meow
   
   def meow
     @meow
