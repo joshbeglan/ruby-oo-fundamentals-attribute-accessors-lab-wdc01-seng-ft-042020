@@ -7,11 +7,11 @@ class Cat
     @name
   end
   
-  def meow=(meow_sound)
-    @meow = meow_sound
+  def meow=(meow)
+    @meow = "Meow!"
   end
   
   def meow
-    @meow
+    puts @meow
   end
 end
